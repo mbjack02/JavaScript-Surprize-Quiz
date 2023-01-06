@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#start-btn {
+    justify-content: center;
+    font-size:x-large;
+    align-content: flex-end;
+}
+
+#timer {
+    display: flex;
+    font-size: x-large;
+}
+
+#quiz-section {
+    display: flex;
+    font-size: x-large;
+}
+
+#gameover {
+    display: flex;
+    font-size: x-large;
+    align-content: center;
+}
+
+#display-score {
+    display: flex;
+    font-size: x-large;
+    align-content: center;
+}
+
