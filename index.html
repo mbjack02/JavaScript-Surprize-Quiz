@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="start-btn">Start</button>
+
+    <div id="timer" class="hidden">
+        <span id="seconds">30</span>
+    </div>
+
+<section id="quiz" class="">
+    <!-- First Question  -->
+    <div id="quiz-section1" class="hidden">
+        <h1 class="question"></h1>
+        <button id="answer0" class="incorrect">v, varible, set var</button>
+        <button id="answer1" class="correct">var, let, const</button>
+    </div>
+ <!-- Second Question  -->
+    <div id="quiz-section2" class="hidden">
+        <h1 class="question"></h1>
+        <button id="answer0" class="correct">function yourFunctionName() {}, const yourFunctionName = () => {}</button>
+        <button id="answer1" class="incorrect">yourFunctionName() {}, () => []</button>
+    </div>
+
+ <!-- Third Question  -->
+    <div id="quiz-section3" class="hidden">
+        <h1 class="question"></h1>
+        <button id="answer0" class="incorrect">element.listen(event, function)</button>
+        <button id="answer1" class="correct">element.addEventListener(event, function)</button>
+    </div>
+</section>
+    
+    <!-- Game Over -->
+
+    <form id="gameover" class="hidden">
+        <input type="text" name="initials" id="initials">
+        <button type="submit">Save</button>
+    </form>
+
+    <p id="display-score" class="hidden"></p>
+
+    <script src="./assets/index.js"></script>
+</body>
+</html>
