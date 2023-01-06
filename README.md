@@ -1,5 +1,4 @@
-# JavaScript-Surprize-Quiz# Surprise-Quiz
-    Surprise-Quiz 
+# JavaScript-Surprize-Quiz
 
 ## User Story
 
