@@ -1,3 +1,4 @@
+
 var startBtn = document.getElementById("start-btn")
 var quizElementsWrapper = document.getElementById("quiz")
 var firstQuestionElement = document.getElementById("quiz-section1")
@@ -86,7 +87,7 @@ function handleSubmit(event) {
     startBtn.classList.remove('hidden')
 
     displayScoreElement.classList.remove('hidden')
-    
+
     timerElement.classList.add("hidden")
 
     event.target.reset()
